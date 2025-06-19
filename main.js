@@ -32,13 +32,16 @@ function renderGoals(goals, readOnly) {
         input.setAttribute('data-idx', idx);
         // Conditional styling for readOnly mode
         if (readOnly) {
-            input.style.background = '#fff';
+            input.style.background = '#232946';
+            input.style.color = '#b8c1ec';
             input.style.border = 'none';
         }
         wrapper.appendChild(input);
         if (!readOnly) {
+            input.style.color = 'black'
+            input.style.background = '#fff';
             const delBtn = document.createElement('button');
-            delBtn.textContent = 'x';
+            delBtn.textContent = 'X';
             delBtn.className = 'delete-goal-btn';
             delBtn.style.marginLeft = '8px';
             delBtn.onclick = function() {
