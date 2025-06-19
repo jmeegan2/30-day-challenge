@@ -14,9 +14,7 @@ A simple web app to help you track your daily goals and progress for 30 days.
 - Your data will remain even if you close the tab or browser, as long as you use the same device and browser.
 - If you clear your browser data or use a different device/browser, your progress will not carry over.
 
-## Deploying
-- You can deploy this app easily with GitHub Pages or any static site host.
-- Just upload the files (`home.html`, `main.js`, `style.css`) to your hosting platform.
-
+## Deployed Link 
+- https://jmeegan2.github.io/30-day-challenge/
 ---
 Enjoy tracking your 30 day challenge! 
