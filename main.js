@@ -66,6 +66,8 @@ if (!Array.isArray(savedGoals) || savedGoals.length === 0) savedGoals = ['', '',
 setEditing(false);
 // Add goal
 addGoalBtn.onclick = function() {
+    // Save current input values before adding a new one
+    savedGoals = Array.from(document.querySelectorAll('.goal-input')).map(input => input.value);
     savedGoals.push('');
     renderGoals(savedGoals, false);
 };
